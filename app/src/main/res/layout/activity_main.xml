@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.memorygame.siddharthsharma.memorygame.MainActivity"
+    android:background="@drawable/back_animals">
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="Beat your friends"
+        android:textColor="#000000"
+        android:textSize="20sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshpae"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/angry_btn1"
+
+        android:text="Medium"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/angry_btn"
+        android:layout_alignStart="@+id/angry_btn"/>
+
+    <Button
+        android:id="@+id/button3"
+
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:text="hard"
+
+        android:layout_below="@+id/angry_btn1"
+        android:layout_alignLeft="@+id/angry_btn1"
+        android:layout_alignStart="@+id/angry_btn1"
+        android:layout_marginTop="13dp"/>
+
+    <Button
+        android:id="@+id/button4"
+
+
+
+
+        android:text="Easy"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+
+        android:layout_below="@+id/angry_btn"
+        android:layout_alignLeft="@+id/angry_btn"
+        android:layout_alignStart="@+id/angry_btn"
+
+
+        android:layout_marginTop="12dp"/>
+
+    <com.memorygame.siddharthsharma.memorygame.widgets.groboldtextview
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Remember"
+        android:textColor="@android:color/black"
+        android:textSize="45dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="-3"
+        android:shadowRadius="1.5"/>
+
+    <com.memorygame.siddharthsharma.memorygame.widgets.groboldtextview
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Them"
+        android:textColor="@android:color/black"
+        android:textSize="45dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="-3"
+        android:shadowRadius="1.5"/>
+
+    <com.memorygame.siddharthsharma.memorygame.widgets.groboldtextview
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="-3"
+        android:shadowRadius="1.5"
+        android:text="All"
+        android:textColor="@android:color/black"
+        android:textSize="45dp"/>
+
+
+</RelativeLayout>
